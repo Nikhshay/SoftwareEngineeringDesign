@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+      <FILENAME>bitch_shenal.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>String 'line' might not be zero-terminated.</DESCRIPTION>
+    <FUNCTION>OUSB::runOUSBcommand</FUNCTION>
+    <DECORATED>?runOUSBcommand@OUSB@@AAEGPAD@Z</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>This expression may not zero-terminate 'line'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'fpipe!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'line' is an Input to 'atoi' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h:447)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'line' is required to be zero-terminated by a SAL annotation on 'atoi'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+      <FILENAME>bitch_shenal.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'line'.</DESCRIPTION>
+    <FUNCTION>OUSB::runOUSBcommand</FUNCTION>
+    <DECORATED>?runOUSBcommand@OUSB@@AAEGPAD@Z</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'line' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'fpipe!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'line' is an Input to 'atoi' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h:447)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal</FILEPATH>
+        <FILENAME>bitch_shenal.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'line' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

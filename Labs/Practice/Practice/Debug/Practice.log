@@ -1,0 +1,5 @@
+﻿  Practice.cpp
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\labs\practice\practice\practice.cpp(576): error C2143: syntax error: missing ';' before '}'
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\labs\practice\practice\practice.cpp(582): error C2676: binary '/': 'const MyObject' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\labs\practice\practice\practice.cpp(583): error C2561: 'Calc_data': function must return a value
+  c:\users\user\desktop\rmit year 4 semester 1\software engineering design\labs\practice\practice\practice.cpp(580): note: see declaration of 'Calc_data'

@@ -1,0 +1,3 @@
+﻿  Final_Practice.cpp
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 1\final_practice\final_practice\final_practice.cpp(435): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 1\final_practice\final_practice\final_practice.cpp(454): error C4700: uninitialized local variable 'x' used

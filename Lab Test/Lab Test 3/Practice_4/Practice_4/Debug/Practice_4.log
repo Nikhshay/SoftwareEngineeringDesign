@@ -1,0 +1,4 @@
+﻿  Practice_4.cpp
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\practice_4\practice_4\practice_4.cpp(784): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\practice_4\practice_4\practice_4.cpp(657): warning C4715: 'OUSB::read_write_ports': not all control paths return a value
+  Practice_4.vcxproj -> C:\Users\USER\Desktop\RMIT Year 4 Semester 1\Software Engineering Design\Lab Test\Lab Test 3\Practice_4\Debug\Practice_4.exe

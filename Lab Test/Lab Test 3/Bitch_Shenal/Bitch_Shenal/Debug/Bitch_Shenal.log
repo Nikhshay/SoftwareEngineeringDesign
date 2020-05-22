@@ -1,0 +1,10 @@
+﻿  Bitch_Shenal.cpp
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal\bitch_shenal.cpp(60): warning C4101: 'fpipe': unreferenced local variable
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal\bitch_shenal.cpp(76): warning C4101: 'fpipe': unreferenced local variable
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal\bitch_shenal.cpp(92): warning C4101: 'fpipe': unreferenced local variable
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal\bitch_shenal.cpp(109): warning C4101: 'fpipe': unreferenced local variable
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal\bitch_shenal.cpp(126): warning C4101: 'fpipe': unreferenced local variable
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal\bitch_shenal.cpp(144): warning C4101: 'fpipe': unreferenced local variable
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal\bitch_shenal.cpp(288): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\lab test 3\bitch_shenal\bitch_shenal\bitch_shenal.cpp(242): warning C4715: 'TrafficLight::changeTrafficLightState': not all control paths return a value
+  Bitch_Shenal.vcxproj -> C:\Users\USER\Desktop\RMIT Year 4 Semester 1\Software Engineering Design\Lab Test\Lab Test 3\Bitch_Shenal\Debug\Bitch_Shenal.exe

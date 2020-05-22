@@ -1,0 +1,4 @@
+﻿  Test_1_Practice_2.cpp
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\test_1_practice_2\practice\practice\test_1_practice_2.cpp(422): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\rmit year 4 semester 1\software engineering design\lab test\test_1_practice_2\practice\practice\test_1_practice_2.cpp(438): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  Practice.vcxproj -> C:\Users\USER\Desktop\RMIT Year 4 Semester 1\Software Engineering Design\Lab Test\Test_1_Practice_2\Practice\Debug\Practice.exe
